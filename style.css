@@ -1,0 +1,464 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+p
+{
+	margin-bottom: 0 !important;
+}
+.topNavicon1 
+{
+	width: 45px;
+	height: 45px;
+	/* background: red; */
+	padding: 10px 15px;
+	border-radius: 50%;
+	border: 2px solid orange;
+}
+.airi
+{
+	color: black;
+	font-weight: bold;
+	opacity: .8;
+	text-decoration: none !important;
+	font-size: 30px;
+}
+.airi2
+{
+	color: orange;
+	font-weight: bold;
+	opacity: .8;
+	text-decoration: none !important;
+	font-size: 30px;
+}
+.airi2 span
+{
+	color: orange;
+	font-size: 35px;
+}
+.airi span
+{
+	color: orange;
+	font-size: 35px;
+}
+.topNavInfo
+{
+	color: #0E304E;
+	font-weight: bold;
+	opacity: .8;
+}
+.navbar-jam
+{
+	background: #132F4D !important;
+}
+.navbar-jam2
+{
+	background: #132F4D !important;
+}
+.nav-dot
+{
+	width: 30px;
+	height: 2px;
+	margin-top: 8px;
+	background: white;
+}
+
+						/* header bg */
+.header-bg
+{
+	background: url('img/Background.jpg') no-repeat top center;
+	background-position: cover;
+}
+.hti
+{
+	transition: 1s;
+	padding-bottom: 5rem;
+	
+}
+
+.header-text
+{
+	padding-top: 16rem;
+	padding-bottom: 16rem;
+	transition: 1s;
+}
+.header-text h1
+{
+	font-size: 50px;
+	color: white;
+	font-weight: bold;
+	padding-bottom: 1rem;
+}
+.btn-jam
+{
+	background: #0E304E !important;
+}
+
+
+
+@media (max-width: 470px)
+{
+	.header-text h1
+{
+	font-size: 40px;
+	color: white;
+	font-weight: bold;
+}
+.header-text
+{
+	padding-top: 13rem;
+	padding-bottom: 13rem;
+}
+}
+@media (max-width: 385px)
+{
+	.header-text h1
+{
+	font-size: 35px;
+	color: white;
+	font-weight: bold;
+}
+}
+
+					
+
+						/* our features */
+.our-features h1
+{
+	color: #0E304E;
+	opacity: .9;
+}
+.safe-devivery h3
+{
+	color: #0e304e;
+	font-weight: bold;
+	opacity: .9;
+}
+.safe-devivery p
+{
+	font-size: 17px;
+}
+.safe-devivery a
+{
+	text-decoration: none !important;
+	color: #0e304e;
+	font-weight: bold;
+
+}
+.users span 
+{
+	width: 45px;
+	height: 45px;
+	/* background: orange; */
+	padding: 15px 20px;
+	border-radius: 50%;
+	font-size: 20px;
+	/* margin-bottom: 27px; */
+	border: 2px solid orange;
+}
+.service-scd-bg
+{
+	background: url('img/Background.jpg') no-repeat top center;
+	width: 100%;
+	
+	position: relative;
+	z-index: 1;
+}
+.text-orange
+{
+	color: orange;
+}
+.service-scd-bg::before
+{
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 100%;
+	background:#0e304ec9;
+	z-index: -1; 
+}
+.users p
+{
+	font-weight: bold;
+	opacity: .9;
+}
+.fdiv
+{
+	border: 1px solid #F2F4F5;
+}
+
+.fdiv h3
+{
+	color: #0e304e;
+	font-weight: bold;
+	opacity: .9;
+}
+
+
+
+
+
+						/* our features end */
+
+						/* client say */
+.client-say
+{
+	background: #3E5971;
+}
+.first-review
+{
+	background: white;
+	border-radius: 10px;
+}
+.first-review p
+{
+	font-size: 17px;
+}
+.john
+{
+	color: orange;
+	font-weight: bold;
+	opacity: .9;
+}
+.design
+{
+	font-size: 12px;
+	opacity: .8;
+}
+.review-text
+{
+	color: #0E304E;
+
+}
+
+
+
+						/* client say end */
+
+						/* latest news */
+.date
+{
+	color: orange;
+	text-decoration: none !important;
+	font-size: 17px;
+	font-weight: bold;
+}
+.news-post
+{
+	color: #0E304E;
+	font-size: 25px;
+	text-decoration: none !important;
+}
+.news-cate 
+{
+	width: 4rem;
+	height: 1rem;
+	background: #c1c1c1;
+	padding: 5px 12px;
+	margin-top: 2rem;
+	/* border: ; */
+	border-radius: 12px;
+	margin-bottom: 2rem;
+}
+.news-cate a 
+{
+	color: #4f4949;
+	font-weight: bold;
+	opacity: 0.7;
+	text-decoration: none !important;
+}
+.vlad
+{
+	color: #0E304E;
+	text-decoration: none !important;
+	/* padding-left: .5rem; */
+	font-weight: bold;
+}
+.vlad:hover
+{
+	color: orange;
+}
+.byvlad
+{
+	/* padding-left: 5rem; */
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+
+
+						/* latest news end*/
+
+						/* get in touch */
+.input-box 
+{
+	display: block;
+	width: 20rem;
+	/* margin: 20px 20px; */
+	padding: 13px 30px;
+	border: none;
+	outline: none;
+	border: 2px solid transparent;
+	transition: 1s;
+	margin: 20px 0;
+}
+.input-box:hover
+{
+	border: 2px solid black;
+}
+.textarea
+{
+	width: 20rem;
+	outline: none;
+	border: 2px solid transparent;
+	padding: 13px 30px;
+	transition: 1s;
+}
+.textarea:hover
+{
+	border: 2px solid black;
+}
+.gettouch
+{
+	color: #0E304E;
+	font-weight: bold;
+	opacity: .9;
+}
+
+
+						/* get in touch end*/
+
+						/* brands */
+.brands
+{
+	background: #0E304E;
+}
+						/* brands end */
+
+						/* footer */
+.links p a
+{
+   text-decoration: none !important;
+}
+.footer-icon h6 
+{
+	background: #45629D;
+	padding: 10px 14px;
+	border-radius: 50%;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	/* align-content: ; */
+	align-items: center;
+	display: inline-block;
+	cursor: pointer;
+}
+.f2
+{
+	background: #2FA9F3 !important;
+}
+.f3
+{
+	background: #C83AAA !important;
+}
+.f4
+{
+	background: #0C81B9 !important;
+}
+.footer h4
+{
+	font-weight: bold;
+	opacity: .9;
+}
+
+
+
+
+						/* footer end*/
+
+
+@media only screen and (min-width: 767px)
+{
+	.nav1
+	{
+       display: none !important;
+       opacity: 0 !important;
+       visibility: hidden !important;
+	}
+
+}
+@media (max-width: 768px) {
+	.nav2
+	{
+		display: none !important;
+       opacity: 0 !important;
+       visibility: hidden !important;
+	}
+}
+
+
+@media only screen and (min-width: 768px)
+{
+	
+	
+	.nav2
+	{
+		display: block !important;
+       opacity: 1 !important;
+       visibility: visible !important;
+	}
+	.navbar-jam
+	{
+		background: white !important;
+	}
+	.nav1text
+	{
+		display: block;
+		opacity: 1;
+		visibility: visible;
+	}
+}
+
+
+.nav2
+{
+	position: absolute;
+	top: 2.7rem;
+	z-index: 1; 
+}
+.header-top
+{
+	position: relative;
+}
+.navquote 
+{
+	background: #EA8E2B;
+	line-height: 37px;
+	color: white !important;
+	font-weight: bold;
+	padding: 0 40px;
+	/* border-bottom-left-radius: 100px; */
+}
+.navquote2 
+{
+	background: #EA8E2B;
+	line-height: 37px;
+	color: white !important;
+	font-weight: bold;
+	padding: 0 40px;
+	border-bottom-left-radius: 100px;
+}
+.navquote-text
+{
+	color: white;
+	line-height: 50px;
+}
+.navquote-text:hover
+{
+	color: white;
+}
+.navtopquote {
+	padding-left: 8.5rem !important;
+	color: white;
+}
